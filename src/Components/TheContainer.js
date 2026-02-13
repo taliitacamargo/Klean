@@ -1,0 +1,30 @@
+import React from 'react';
+import {useState} from 'react';
+import '../App.css';
+
+
+export default function TheContainer() {
+    const[currentPage, setCurrentPage] = useState('Home');
+
+const renderPage = () => {
+    if(currentPage === 'About') {
+        return <About/>;
+    }
+    if(currentPage === 'Contact') {
+        return <Contact/>;
+    }
+    if(currentPage === 'Home') {
+        return <Home/>
+    }
+    return <Home/>;
+};
+const handlePageChange = (page) => setCurrentPage(page);
+return(
+    <div>
+    <NavBar currentPage = {currentPage} handlePageChange = {handlePageChange} />
+    {renderPage()}
+    <Footer/>
+    </div>
+);
+
+}
