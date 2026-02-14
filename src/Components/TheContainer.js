@@ -3,8 +3,8 @@ import {useState} from 'react';
 import '../App.css';
 import NavBar from './NavBar';
 import Footer from './Footer';
-import About from './About';
-import Contact from './Contact';
+import Services from './Services.js';
+import Quote from './Quote';
 import Home from './Home.js';
 
 
@@ -12,11 +12,11 @@ export default function TheContainer() {
     const[currentPage, setCurrentPage] = useState('Home');
 
 const renderPage = () => {
-    if(currentPage === 'About') {
-        return <About/>;
+    if(currentPage === 'Services') {
+        return <Services/>;
     }
-    if(currentPage === 'Contact') {
-        return <Contact/>;
+    if(currentPage === 'Quote') {
+        return <Quote/>;
     }
     if(currentPage === 'Home') {
         return <Home/>
