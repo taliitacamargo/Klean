@@ -1,26 +1,26 @@
 import React from 'react'
 
-function Navbar({currentPage, handlePageChange}) {
-    return(
+function Navbar({ currentPage, handlePageChange }) {
+    return (
         <header className="header">
             <nav className="nav">
                 <ul className="nav-list">
-                    <li className="nav-item-1">
+                    <li className="nav-item">
                         <a href="#about" onClick={() => handlePageChange('About')}
                             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
-                        About
+                            Services
                         </a>
                     </li>
-                    <li className="nav-item-2">
+                    <li className="nav-item">
                         <a href="#contact" onClick={() => handlePageChange('Contact')}
                             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
-                        Contact
+                            Contact
                         </a>
                     </li>
-                    <li className="nav-item-3">
+                    <li className="nav-item">
                         <a href="#home" onClick={() => handlePageChange('Home')}
                             className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
-                        Home
+                            Home
                         </a>
                     </li>
                 </ul>

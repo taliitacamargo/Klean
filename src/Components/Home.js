@@ -12,7 +12,11 @@ export default function Home() {
                 Klean has got you covered. Contact us today to schedule your cleaning service
                 and experience the difference with Klean!</p>
             {/* images */}
-            <a className="home-link" href="#contact">Contact Us</a>
+        
+            <img className="heroimg" src="src/assets//img1.jpg" alt="cleaning service"/>
+            <img className="heroimg" src="src/assets/img2.jpg" alt="cleaning service"/>
+            <img className="heroimg" src="src/assets/img4.jpg" alt="cleaning service"/>
+        
             <p >
                 just words
             </p>
