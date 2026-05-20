@@ -2,8 +2,8 @@ import React from 'react'
 import '../App.css';
 
 import img1 from '../assets/img1.jpg';
-import img2 from '../assets/img1.jpg';
-import img4 from '../assets/img1.jpg';
+import img2 from '../assets/img2.jpg';
+import img4 from '../assets/img4.jpg';
 
 
 export default function Home() {
