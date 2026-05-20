@@ -1,6 +1,11 @@
 import React from 'react'
 import '../App.css';
 
+import img1 from '../assets/img1.jpg';
+import img2 from '../assets/img1.jpg';
+import img4 from '../assets/img1.jpg';
+
+
 export default function Home() {
     return (
         <div className="home">
@@ -17,9 +22,9 @@ export default function Home() {
             </div>
             {/* images */}
         
-            <img className="heroimg" src="src/assets//img1.jpg" alt="cleaning service"/>
-            <img className="heroimg" src="src/assets/img2.jpg" alt="cleaning service"/>
-            <img className="heroimg" src="src/assets/img4.jpg" alt="cleaning service"/>
+            <img className="heroimg" src={img1} alt="cleaning service"/>
+            <img className="heroimg" src={img2} alt="cleaning service"/>
+            <img className="heroimg" src={img4} alt="cleaning service"/>
             {/* <img className="heroimg" src="src/assets/img6.jpg" alt="cleaning service"/> */}
             <div>
             <button className="bookbutton">Get a Free Quote</button>
