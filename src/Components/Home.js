@@ -4,6 +4,7 @@ import '../App.css';
 export default function Home() {
     return (
         <div className="home">
+            
             <h1 className="home-title">Welcome to [BUSINESS NAME]</h1>
             <div className="home-description">
             <p className="home-description">[YOUR BUSINESS NAME] is a cleaning service that provides
@@ -19,7 +20,7 @@ export default function Home() {
             <img className="heroimg" src="src/assets//img1.jpg" alt="cleaning service"/>
             <img className="heroimg" src="src/assets/img2.jpg" alt="cleaning service"/>
             <img className="heroimg" src="src/assets/img4.jpg" alt="cleaning service"/>
-            <img className="heroimg" src="src/assets/img6.jpg" alt="cleaning service"/>
+            {/* <img className="heroimg" src="src/assets/img6.jpg" alt="cleaning service"/> */}
             <div>
             <button className="bookbutton">Get a Free Quote</button>
             </div>

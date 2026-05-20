@@ -13,7 +13,7 @@ export default function Quote() {
         );
     }
     return (
-        <div className="quote">
+        <div className="quotecontainer">
             <h1 className="quote-title" id="quote">Contact Us</h1>
             <form onSubmit={handleSubmit}>
             <div className="form">

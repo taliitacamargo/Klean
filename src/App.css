@@ -1,3 +1,10 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -28,7 +35,7 @@ nav {
 }
 
 
-/* .nav-logo {
+ .logo {
   margin-right: auto;     
   font-weight: bold;
   color: #7d6868;
@@ -45,14 +52,6 @@ nav {
   padding: 0;
   list-style: none;
 }
-
-
-/* .nav-actions {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-left: auto;      
-} */
 
 
 .nav-item a {
@@ -90,6 +89,10 @@ nav {
   left: 0;
 }
 
+.home {
+  margin: 100px;
+  padding: 20px;
+}
 
 .quote-btn {
   padding: 10px 18px;
@@ -106,6 +109,7 @@ nav {
   transform: translateY(-2px);
   filter: brightness(0.95);
 }
+
 
 
 /* .hamburger {
@@ -148,10 +152,57 @@ main {
   text-decoration: none;
   border-radius: 4px;
   margin-top: 20px;
+
+}
+
+.quotecontainer {
+  width: 90%;
+  max-width: 500px;
+  padding: 26px 28px;
+  margin:160px auto 100px auto; ;
+  background-color:#7d6868;
+  color:#e8e6e1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.servicescontainer {
+  width: 90%;
+  max-width: 500px;
+  gap: 10px;
+
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin:160px auto 100px auto; ;
 }
 
 
+.footer-item1 {
+  list-style-type: none;
+}
+
 footer {
+  text-decoration: none;
   background-color: #e8e6e1;
   position: fixed;
   bottom: 0;
@@ -159,6 +210,8 @@ footer {
   width: 100%;
   z-index: 1000;
 }
+
+
 
 
 /* @media (max-width: 768px) {
