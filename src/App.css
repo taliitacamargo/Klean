@@ -110,27 +110,6 @@ nav {
   filter: brightness(0.95);
 }
 
-
-
-/* .hamburger {
-  width: 44px;
-  height: 44px;
-  border: 0;
-  background: transparent;
-  display: none;         
-  padding: 0;
-  cursor: pointer;
-} */
-
-/* .hamburger span {
-  display: block;
-  width: 26px;
-  height: 3px;
-  background: #7d6868;
-  border-radius: 2px;
-  margin: 5px auto;
-} */
-
 main {
   margin-top: 140px;
 }
